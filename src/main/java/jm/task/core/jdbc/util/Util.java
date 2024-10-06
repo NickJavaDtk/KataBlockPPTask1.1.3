@@ -11,7 +11,7 @@ public class Util {
     private static Connection connection;
 
     private static Connection getConnectionBD() {
-        try  {
+        try {
             connection = DriverManager.getConnection(urlDB, loginDB, passwordDB);
         } catch (SQLException e) {
             e.printStackTrace();

@@ -63,7 +63,8 @@ public class User {
     @Override
     public String toString() {
         return "Пользователь{" +
-                "Имя='" + name + '\'' +
+                "ID='" + id + '\'' +
+                ", Имя='" + name + '\'' +
                 ", Фамилия='" + lastName + '\'' +
                 ", Возраст=" + age +
                 '}';
